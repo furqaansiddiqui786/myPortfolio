@@ -1,0 +1,109 @@
+html{
+    scroll-behavior: smooth;
+}
+.intro-text h1{
+    font-weight: bolder;
+    font-size: 60px;
+}
+section > h1{
+    font-family: 'Alfa Slab One', cursive;
+}
+.skillsets h2{
+    font-family: 'Bungee Inline', cursive;
+}
+h5{
+    font-family: 'Chewy', cursive;
+}
+header{
+    background-image: url(bg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+
+}
+.intro-text{
+    padding-top: 200px;
+    text-align: center;
+    color: white;
+    font-family: 'Revalia', cursive;
+}
+
+.headbtn{
+    color: white;
+    margin-top: 200px;
+}
+
+#aboutme{
+    text-align: center;
+    padding-top: 100px;
+}
+.abt-box{
+    padding-top: 100px;
+}
+.skillsets{
+    text-align: left;
+    padding-top: 20px;
+}
+.frontskills h4{
+    color: rgb(6, 30, 250);
+    font-weight: bolder
+}
+.backendskills h4{
+    color: rgb(6, 248, 6);
+    font-weight: bolder
+}
+.frontskills li{
+    list-style: none;
+
+}
+.backendskills li{
+    list-style: none;
+}
+#Dp{
+    width: 200px;
+    height: 200px;
+    transition: 0.5s ease-in-out;
+}
+#Dp:hover{
+    width: 250px;
+    height: 250px;
+    transition: 0.5s ease-in-out;
+}
+#portfolios{
+    margin-top: 100px;
+}
+#portfolios h1{
+    margin-bottom: 100px;
+}
+#contact{
+    background: url(contactbg.jpg) center;
+    background-size: cover;
+    color: white;
+}
+#contact h1{
+    text-decoration: underline;
+    text-decoration-color: grey;
+    margin-top: 100px;
+    padding-top: 50px;
+    margin-bottom: 50px;
+}
+.v1{
+    border-left: 1px solid grey;
+    height: 410px;
+}
+.v{
+    padding: 20px;
+}
+@media only screen and (max-width : 600px){
+    #message{
+        columns: 30;
+    }
+}
+footer{
+    background-color: #2C3335;
+    padding: 40px;
+    color: white;
+    font-size: 18px;
+}
